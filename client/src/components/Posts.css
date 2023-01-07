@@ -1,0 +1,47 @@
+.posts-main {
+	background-color: lightgreen;
+	min-height: 100vh;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.signout {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.new-post {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+}
+/* .new-post button {
+	margin-top: 10px;
+	width: fit-content;
+	
+	text-align: center;
+} */
+.fields {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fields input {
+	width: 40%;
+	height: 30px;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.posts {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+}

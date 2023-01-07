@@ -1,0 +1,22 @@
+.main-edit {
+	/* width: 100%; */
+	margin-top: 10px;
+}
+
+label {
+	font-size: 14px;
+}
+
+input {
+	height: 24px;
+	border-radius: 4px;
+	/* width: 100px; */
+}
+
+.test {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+	gap: 10px 10px;
+}
