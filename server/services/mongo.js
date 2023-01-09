@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const MONGO_URL =
-	"mongodb+srv://chirag:ca123456@nasacluster.hgrntbn.mongodb.net/qs?retryWrites=true&w=majority";
+	"";
 
 mongoose.connection.once("open", () => {
 	console.log("mongodb is ready");
@@ -12,7 +12,7 @@ mongoose.connection.on("error", (err) => {
 });
 
 async function mongoConnect() {
-	await mongoose.connect(MONGO_URL);
+	await mongoose.connect(process.env.MONGO || MONGO_URL);
 }
 
 async function mongoDisconnect() {
