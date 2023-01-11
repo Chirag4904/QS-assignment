@@ -1,4 +1,4 @@
-# QS-assignment
+# Social posts (basic)
 
 To run this app in local env follow these steps ->
 1. Clone the repo
